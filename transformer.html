@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformer</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE; /* Aqua Blue Gradient with #E1EBEE */
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative; /* Make header position relative for logo positioning */
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px; /* Adjust the size of the logo */
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out; /* Fade-in effect */
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Capacitor Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Transformers</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is a Transformer?</h2>
+        <p>A transformer is an electrical device that transfers electrical energy between two or more circuits through electromagnetic induction. It can change the voltage levels in alternating current (AC) circuits, either stepping up or stepping down the voltage.</p>
+        <div class="image-container">
+            <img src="./referenceimages/transformer.jpg" alt="O-Ring">
+        </div>
+        <h2>Types of Transformers</h2>
+
+        <div class="section-content">
+            <h3>Step-Up Transformer:</h3>
+            <p>A step-up transformer increases the voltage from the primary coil to the secondary coil, making it suitable for long-distance power transmission.</p>
+            <p><strong>Real-Life Example:</strong> Electric power stations use step-up transformers to increase voltage from 11 kV to 400 kV or higher for long-distance transmission.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Step-Down Transformer:</h3>
+            <p>A step-down transformer reduces the voltage to a lower level, making it safe for use in household appliances.</p>
+            <p><strong>Real-Life Example:</strong> Chargers for electronic devices like smartphones and laptops use step-down transformers to convert high voltage to lower levels for safe charging.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Isolation Transformer:</h3>
+            <p>An isolation transformer electrically isolates the primary and secondary circuits. It ensures that no direct electrical connection is made, providing protection and safety.</p>
+            <p><strong>Real-Life Example:</strong> Medical equipment like MRI machines use isolation transformers to prevent electrical shock and reduce interference.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Auto Transformer:</h3>
+            <p>Auto transformers are used when the primary and secondary windings share a common coil, allowing for a more compact and efficient design. They are mostly used in motor applications.</p>
+            <p><strong>Real-Life Example:</strong> In motor control systems in factories, auto transformers are used to reduce inrush current during motor startups.</p>
+        </div>
+
+        <h2>டிரான்ஸ்ஃபார்மர் (Transformer)</h2>
+
+        <div class="section-content">
+            <h3>வோல்டேஜை உயர்த்தும் டிரான்ஸ்ஃபார்மர் (Step-Up Transformer):</h3>
+            <p>Step-up transformer பைரமரி கோயிலிலிருந்து இரண்டாம் கோயிலுக்கு மின்வோல்டேஜ் அளவை அதிகரிக்கும்.</p>
+            <p><strong>உதாரணம்:</strong> மின்சார நிலையங்கள் step-up transformers ஐ பயன்படுத்தி மின்வோல்டேஜை 11 kV இலிருந்து 400 kV அல்லது அதற்கு அதிகமாக மாற்றி, நீண்ட தூரத்துக்கு மின்சாரம் செலுத்துகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>வோல்டேஜை குறைக்கும் டிரான்ஸ்ஃபார்மர் (Step-Down Transformer):</h3>>
+            <p>Step-down transformer மின்வோல்டேஜை குறைக்கின்றது, அதனால் வீட்டு சாதனங்களில் பாதுகாப்பாக பயன்படும்.</p>
+            <p><strong>உதாரணம்:</strong> மின்சார சாதனங்களின் சார்ஜர்களில் step-down transformers பயன்படுத்தப்படுகின்றன, இது உயர்ந்த மின்வோல்டேஜை குறைந்த மின்வோல்டேஜுக்கு மாற்றுகிறது.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>ஐசோலேஷன் டிரான்ஸ்ஃபார்மர் (Isolation Transformer):</h3>
+            <p>Isolation transformer பைரமரி மற்றும் இரண்டாம் கோயிலுக்கிடையிலான மின்கட்டுப்பாட்டை தனிப்படுத்துகிறது, இது பாதுகாப்புக்கு உதவுகிறது.</p>
+            <p><strong>உதாரணம்:</strong> மருத்துவ சாதனங்களில் isolation transformers பயன்படுத்தப்படுகின்றன, இது மின்சார ஷாக் மற்றும் இழப்பு குறைக்கும்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>ஆட்டோ டிரான்ஸ்ஃபார்மர் (Auto Transformer):</h3>
+            <p>Auto transformer என்பது பைரமரி மற்றும் இரண்டாம் கோயிலின் சில இணைப்புகளைப் பகிர்ந்துகொள்கின்றது, இது சிறந்த வடிவமைப்பையும் திறமையான செயல்பாட்டையும் வழங்குகிறது.</p>
+            <p><strong>உதாரணம்:</strong> தொழிற்சாலைகளில் மோட்டர் கட்டுப்பாட்டு முறைமைகளில் auto transformers பயன்படுத்தப்படுகின்றன, இது மின்வோல்டேஜின் அதிகமான துவக்க குரூப் நிலையைக் குறைக்க உதவுகிறது.</p>
+        </div>
+    </div>
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+    <script>
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+    <footer>
+        <p>&copy; Transformer Learning | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

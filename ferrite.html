@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrite</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Ferrite Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ferrite</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is Ferrite?</h2>
+        <p>Ferrite is a type of ceramic compound made from iron oxide (Fe₂O₃) combined with other metals. It is a magnetic material used in a variety of electronic components such as transformers, inductors, and magnetic cores.</p>
+        <div class="image-container">
+            <img src="./referenceimages/ferrite.jpg" alt="Ferrite Image">
+        </div>
+
+        <h2>Types of Ferrite</h2>
+        <div class="section-content">
+            <h3>Soft Ferrite:</h3>
+            <p>Soft ferrites are materials that are easy to magnetize and demagnetize. These ferrites are commonly used in transformers, inductors, and electrical devices requiring magnetic cores.</p>
+            <p><strong>Uses:</strong> Transformers, inductors, and sensors.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Hard Ferrite:</h3>
+            <p>Hard ferrites, also known as permanent ferrites, are harder to magnetize and are used in applications that require strong magnetic fields and permanent magnet properties.</p>
+            <p><strong>Uses:</strong> Magnets in motors, loudspeakers, and electrical generators.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Nickel-Zinc Ferrite:</h3>
+            <p>Nickel-zinc ferrites have higher magnetic permeability and are typically used in high-frequency applications such as power transformers, inductors, and antennas.</p>
+            <p><strong>Uses:</strong> High-frequency transformers, antennas, and broadband inductors.</p>
+        </div>
+
+        <h2>Applications of Ferrite</h2>
+        <p>Ferrite materials are used in a wide range of applications, including:</p>
+        <ul>
+            <li>Transformers and inductors for electrical circuits</li>
+            <li>Magnetic cores in electrical devices</li>
+            <li>Permanent magnets in motors, speakers, and generators</li>
+        </ul>
+
+        <h2>பெரைட் (Ferrite)</h2>
+        <p>பெரைட் என்பது இரும்பு ஆக்சைடு (Fe₂O₃) மற்றும் மற்ற உலோகங்கள் சேர்த்து தயாரிக்கப்படும் ஒரு வகை செராமிக் கலவை ஆகும். இது மின்னணு கூறுகளான டிரான்ஸ்ஃபார்மர், இன்டக்‌ட்டர்கள் மற்றும் மின்காந்த கோர்களில் பயன்படுத்தப்படுகிறது.</p>
+
+        <h2>பெரைட்டின் வகைகள்</h2>
+        <div class="section-content">
+            <h3>மென்மையான பெரைட் (Soft Ferrite):</h3>
+            <p>இந்த பெரைட்கள் மிக எளிதாக காந்தமடையக்கூடியவை மற்றும் அவற்றை வெகு எளிதாக மீண்டும் காந்தம் எடுக்க முடியும். இவை பொதுவாக டிரான்ஸ்ஃபார்மர்கள் மற்றும் மின்காந்த கோர்களில் பயன்படுத்தப்படுகின்றன.</p>
+            <p><strong>பயன்பாடுகள்:</strong> டிரான்ஸ்ஃபார்மர்கள், இன்டக்‌ட்டர்கள், சென்சார்கள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>கடினமான பெரைட் (Hard Ferrite):</h3>
+            <p>இந்த பெரைட்கள் கடினமாக காந்தமடையும் மற்றும் அவற்றுக்கு நிரந்தர காந்தம் கொண்ட தன்மைகள் உள்ளன. இதுபோன்ற பெரைட்கள் பலம் அதிகமாக இருக்கும் காந்த வலையுள்ள பயன்பாடுகளில் பயன்படுத்தப்படுகின்றன.</p>
+            <p><strong>பயன்பாடுகள்:</strong> மோட்டார்கள், லவுட்ஸ்பீக்கர்கள், மின்சார ஜெனரேட்டர்கள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>நிக்கல்-சிங்க் பெரைட் (Nickel-Zinc Ferrite):</h3>
+            <p>இந்த பெரைட்கள் அதிக காந்த இயக்கத்தை கொண்டுள்ளன மற்றும் உயர் அதிர்வெண் பயன்பாடுகளில் பயன்படுத்தப்படுகின்றன.</p>
+            <p><strong>பயன்பாடுகள்:</strong> உயர் அதிர்வெண் டிரான்ஸ்ஃபார்மர்கள், ஆண்டென்னாக்கள், பரந்தவரிசை இன்டக்‌ட்டர்கள்.</p>
+        </div>
+
+        <h2>பெரைட்டின் பயன்பாடுகள்</h2>
+        <p>பெரைட் பொருட்கள் பல்வேறு பயன்பாடுகளில் பயன்படுகின்றன, அவற்றில் சில:</p>
+        <ul>
+            <li>மின்சார circuits களுக்கான டிரான்ஸ்ஃபார்மர்கள் மற்றும் இன்டக்‌ட்டர்கள்</li>
+            <li>மின்காந்த கோர்களை உள்ளடக்கிய மின்னணு சாதனங்கள்</li>
+            <li>மோட்டார்கள், பேட்டரிகள் மற்றும் ஜெனரேட்டர்களில் நிரந்தர காந்தங்கள்</li>
+        </ul>
+    </div>
+
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+    <script>
+        // Show the button when the user scrolls down
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        // Scroll back to the top smoothly
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Ferrite Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

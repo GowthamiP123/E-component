@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connector in Electronics</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Connector Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05);
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Connector</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is a Connector?</h2>
+        <p>A connector is a device used to join two or more electrical circuits, allowing the flow of electricity between them. Connectors can be mechanical or electrical in nature and are essential components for establishing connections between different parts of electronic systems.</p>
+        <div class="image-container">
+            <img src="./referenceimages/connector.jpg" alt="Connector Example">
+        </div>
+
+        <h2>Types of Connectors</h2>
+        <div class="section-content">
+            <h3>Wire-to-Board Connectors:</h3>
+            <p>These connectors are used to connect wires to a printed circuit board (PCB) in an electronic device. They come in various forms such as pin headers, sockets, and plugs.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Board-to-Board Connectors:</h3>
+            <p>These connectors are used to connect two printed circuit boards (PCBs) together. They can be male or female and are used to create a stable electrical connection between boards.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Cable Connectors:</h3>
+            <p>Cable connectors are used to connect wires or cables to a device, often used for transmitting power or data signals. Common examples include USB, HDMI, and audio/video connectors.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Power Connectors:</h3>
+            <p>Power connectors are designed specifically for transferring electrical power between components. Examples include AC power connectors and DC barrel connectors.</p>
+        </div>
+
+        <h2>Applications of Connectors</h2>
+        <ul>
+            <li>Connecting internal and external components of electronic devices</li>
+            <li>Providing power to devices and modules</li>
+            <li>Enabling data transmission between devices</li>
+            <li>Ensuring secure electrical connections in machines, systems, and appliances</li>
+        </ul>
+
+        <h2>கனெக்டர் (Connector)</h2>
+        <p>கனெக்டர் என்பது இரண்டு அல்லது அதற்கு மேற்பட்ட மின்சார வளங்களை இணைக்க பயன்படும் ஒரு சாதனமாகும். கனெக்டர்கள் மின்கோபனிகளுக்கு இடையிலான மின் வெளியீட்டை வழங்க உதவுகின்றன, மேலும் அவை எலக்ட்ரானிக் அமைப்புகளின் பல்வேறு பகுதிகளுக்கிடையில் இணைப்புகளை உருவாக்க முக்கியமான கூறுகளாக உள்ளன.</p>
+
+        <h2>கனெக்டர் வகைகள்</h2>
+        <div class="section-content">
+            <h3>வயர்-போர்டு கனெக்டர்கள் (Wire-to-Board Connectors):</h3>
+            <p>இந்த கனெக்டர்கள், எலக்ட்ரானிக் சாதனங்களில் வயர்களை பிரிண்டெட் சர்க்யூட் போர்டுடன் இணைக்க பயன்படுத்தப்படுகின்றன. இவை பின் ஹெடர்ஸ், சாகெட்டுகள், மற்றும் பிளக் போன்ற பல்வேறு வடிவங்களில் கிடைக்கும்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>போர்டு-போர்டு கனெக்டர்கள் (Board-to-Board Connectors):</h3>
+            <p>இந்த கனெக்டர்கள் இரண்டு பிரிண்டெட் சர்க்யூட் போர்டுகளை ஒன்றிணைக்க பயன்படுத்தப்படுகின்றன. இவை ஆண்கள் அல்லது பெண்கள் வடிவில் கிடைக்கும் மற்றும் போர்டுகளுக்கு இடையில் நிலையான மின்சார இணைப்பை உருவாக்க பயன்படுத்தப்படுகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>கேபிள் கனெக்டர்கள் (Cable Connectors):</h3>
+            <p>கேபிள் கனெக்டர்கள், சாதனத்திற்கு வயர்களை அல்லது கேபிள்களை இணைக்க பயன்படுத்தப்படுகின்றன, பொதுவாக சக்தி அல்லது தரவுத்தொடர்புகளை பரிமாற்றமாக உருவாக்க பயன்படுகின்றன. பொதுவான உதாரணங்கள் USB, HDMI, மற்றும் ஆடியோ/வீடியோ கனெக்டர்களாக இருக்கின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>சக்தி கனெக்டர்கள் (Power Connectors):</h3>
+            <p>சக்தி கனெக்டர்கள் குறிப்பாக மின்சாரத்தை கூறுகளுக்கு பரிமாற்றம் செய்ய வடிவமைக்கப்படுகின்றன. உதாரணங்கள் AC சக்தி கனெக்டர்கள் மற்றும் DC பார்லல் கனெக்டர்கள்.</p>
+        </div>
+
+        <h2>கனெக்டர்களின் பயன்பாடு</h2>
+        <ul>
+            <li>எலக்ட்ரானிக் சாதனங்களின் உள்ளக மற்றும் வெளிப்புற கூறுகளை இணைத்தல்</li>
+            <li>சாதனங்கள் மற்றும் மாட்யூல்களுக்கு சக்தி வழங்குதல்</li>
+            <li>சாதனங்கள் இடையே தரவு பரிமாற்றத்தைத் தொடங்குதல்</li>
+            <li>மின்சார இணைப்புகளை நிலையாக உருவாக்குதல்</li>
+        </ul>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Connector in Electronics Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

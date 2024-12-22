@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antenna</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Antenna Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Antenna</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is an Antenna?</h2>
+        <p>An antenna is a device used to transmit or receive electromagnetic waves. It is a crucial component in communication systems, including radio, television, and wireless networks, as it enables the transmission and reception of signals through airwaves.</p>
+        <div class="image-container">
+            <img src="./referenceimages/antenna.jpg" alt="Antenna Example">
+        </div>
+
+        <h2>Types of Antennas</h2>
+        <div class="section-content">
+            <h3>Dipole Antenna:</h3>
+            <p>A dipole antenna consists of two conductive elements, often shaped like straight rods. It is one of the simplest and most widely used types of antennas.</p>
+            <p><strong>Uses:</strong> Radio receivers, communication systems.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Monopole Antenna:</h3>
+            <p>A monopole antenna is a type of radio antenna consisting of a single element, typically mounted above a conductive surface.</p>
+            <p><strong>Uses:</strong> Mobile devices, car radios, and wireless communication systems.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Parabolic Antenna:</h3>
+            <p>A parabolic antenna uses a parabolic reflector to direct radio waves towards a focal point. It is highly directional and provides a narrow beam of signal.</p>
+            <p><strong>Uses:</strong> Satellite communications, radar systems, and long-range point-to-point communication.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Loop Antenna:</h3>
+            <p>A loop antenna consists of a loop or coil of wire, usually circular or square, and is used to receive or transmit low-frequency radio waves.</p>
+            <p><strong>Uses:</strong> RFID systems, low-frequency communications.</p>
+        </div>
+
+        <h2>Applications of Antennas</h2>
+        <ul>
+            <li>Television and radio broadcasting</li>
+            <li>Cell phones and wireless communication</li>
+            <li>Satellite communications</li>
+            <li>Radar systems</li>
+            <li>Wi-Fi and Bluetooth networks</li>
+        </ul>
+
+        <h2>ஆன்டினா (Antenna) </h2>
+        <p>ஆன்டினா என்பது மின்மிகு கம்பிகதிர்களைக் காட்சி அல்லது பெறல் செய்யும் சாதனமாகும். இது தொலைக்காட்சிக் கூறுகள், வியாபாரிகள், மற்றும் கைபேசிகளிலிருந்து சிக்னல்களை அனுப்பவும் பெறவும் பயன்படுகிறது.</p>
+
+        <h2>ஆன்டினாவின் வகைகள்</h2>
+        <div class="section-content">
+            <h3>டிப்போல் ஆன்டினா (Dipole Antenna):</h3>
+            <p>டிப்போல் ஆன்டினா என்பது இரண்டு conductive கூறுகளைக் கொண்டிருக்கும், பொதுவாக நேர்த்தியான கம்பிகளாக வடிவமைக்கப்பட்டுள்ளன. இது மிகவும் எளிமையான மற்றும் பரவலாக பயன்படுத்தப்படும் ஆன்டினா வகைகளில் ஒன்று.</p>
+            <p><strong>பயன்பாடுகள்:</strong> ரேடியோ ரிசீவர், தொடர்பு அமைப்புகள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>மொனோபோல் ஆன்டினா (Monopole Antenna):</h3>
+            <p>மொனோபோல் ஆன்டினா என்பது ஒரு கம்பியை கொண்டிருக்கும், பொதுவாக ஒரு இயக்கத்தை மட்டுமே கொண்டிருக்கும் ஆன்டினா வகை.</p>
+            <p><strong>பயன்பாடுகள்:</strong> மொபைல் சாதனங்கள், கார் ரேடியோ, வையர்லெஸ் தொடர்பு அமைப்புகள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>பாரபோலிக் ஆன்டினா (Parabolic Antenna):</h3>
+            <p>பாரபோலிக் ஆன்டினா என்பது ஒரு பாரபோலிக் பிரதிபலிப்பு பயன்பாட்டின் மூலம் மின்கதிர்களை ஒருங்கிணைக்க உதவும் வகையில் வடிவமைக்கப்பட்டுள்ளது.</p>
+            <p><strong>பயன்பாடுகள்:</strong> சாட்டலைட் தொடர்பு, ரேடார் அமைப்புகள், மற்றும் தொலைதூரப் புள்ளி-புள்ளி தொடர்பு.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>லூப் ஆன்டினா (Loop Antenna):</h3>
+            <p>லூப் ஆன்டினா என்பது ஒரு சுற்றோட்ட கம்பி அல்லது கயிறு கொண்டுள்ளது, பொதுவாக குறைந்த அலைநீளம் கொண்ட ரேடியோ கதிர்களை பெற அல்லது அனுப்ப பயன்படுகிறது.</p>
+            <p><strong>பயன்பாடுகள்:</strong> RFID அமைப்புகள், குறைந்த அலைநீள தொடர்புகள்.</p>
+        </div>
+
+        <h2>ஆன்டினாவின் பயன்பாடுகள்</h2>
+        <ul>
+            <li>தொலைக்காட்சிக் கூறுகள் மற்றும் ரேடியோ ஒளிபரப்பு</li>
+            <li>செல் போன்கள் மற்றும் வையர்லெஸ் தொடர்பு</li>
+            <li>சாட்டலைட் தொடர்புகள்</li>
+            <li>ரேடார் அமைப்புகள்</li>
+            <li>Wi-Fi மற்றும் Bluetooth வலைப்பின்னல்கள்</li>
+        </ul>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Show the button when the user scrolls down
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        // Scroll back to the top smoothly
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Antenna Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

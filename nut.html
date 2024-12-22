@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Nut</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE; /* Aqua Blue Gradient with #E1EBEE */
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative; /* Make header position relative for logo positioning */
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px; /* Adjust the size of the logo */
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out; /* Fade-in effect */
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Capacitor Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NUT</h1>
+        <!-- Logo on the right corner -->
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+
+    <div class="container">
+
+        <p>A nut is a small mechanical component used in electronics and other mechanical systems to secure or fasten a bolt or screw. It has a hexagonal or circular shape with a hole in the center, allowing it to fit onto a matching bolt or screw. Nuts are essential for holding various parts of electronic devices and ensuring they stay in place.</p>
+
+        <div class="image-container">
+            <img src="./referenceimages/nut.jpg" alt="Nut in Electronics">
+        </div>
+
+        <h2>Types of Nuts in Electronics</h2>
+        <div class="section-content">
+            <h3>Hexagonal Nut:</h3>
+            <p>The most common type of nut with a six-sided shape, widely used in electronics to secure components together.</p>
+            <p><strong>Example:</strong> Used to secure components like circuit boards inside enclosures.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Wing Nut:</h3>
+            <p>Wing nuts have two "wings" on either side, making them easy to tighten and loosen by hand without tools. They are often used for applications where components need to be easily adjusted or removed.</p>
+            <p><strong>Example:</strong> Used in adjustable parts or mounting brackets in electronic devices.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Lock Nut:</h3>
+            <p>A lock nut is designed to prevent loosening due to vibrations or movement. It has a locking mechanism that ensures the nut stays in place.</p>
+            <p><strong>Example:</strong> Used in high-vibration environments, such as in motors or equipment with moving parts.</p>
+        </div>
+
+        <h2>Applications of Nuts in Electronics</h2>
+        <div class="section-content">
+            <h3>Mounting Components:</h3>
+            <p>Nuts are used to secure various electronic components, such as circuit boards, to other parts of an electronic device. They ensure that components stay in place during use.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Electrical Connections:</h3>
+            <p>Nuts are often used in electrical terminals to secure wires or connections, ensuring a stable and reliable electrical contact.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Securing Enclosures:</h3>
+            <p>Many electronic devices require nuts to secure the casing or housing. This ensures that the internal components remain protected and the device functions properly.</p>
+        </div>
+
+        <h2> நட்</h2>
+        <p>ஒரு நட் என்பது ஒரு சிறிய வகை பொருள் ஆகும், இது ஒரு ஸ்க்ரூவை அல்லது பொல்ட்டை பராமரிக்கும் மற்றும் கொண்டு பயன்படுத்தப்படுகிறது. இது மின்சார சாதனங்களை ஒருங்கிணைக்க மற்றும் உறுதிப்படுத்த பயன்படுத்தப்படுகிறது.</p>
+
+        <h2>வகைகள்:</h2>
+        <div class="section-content">
+            <h3>ஹெக்சாகனல் நட் (Hexagonal Nut):</h3>
+            <p>இது மிகவும் பொதுவாகப் பயன்படுத்தப்படும் 6 பக்கங்கள் கொண்ட நட் ஆகும்.</p>
+            <p><strong>உதாரணம்:</strong> சर्कிட் போர்டுகள் போன்றவை மாறி வருகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>விங் நட் (Wing Nut):</h3>
+            <p>இவை எளிதாக கையாளக்கூடிய வகையில் பயன்படுத்தப்படுகிறது.</p>
+            <p><strong>உதாரணம்:</strong> ஸ்மார்ட் சாதனங்களில் பயன்படுத்தப்படும்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>லாக் நட் (Lock Nut):</h3>
+            <p>இவை அதிக வாய்ப்புள்ள பகுதிகளில் பயன்படுத்தப்படுகிறது.</p>
+            <p><strong>உதாரணம்:</strong> மோட்டார்களில் பயன்படுத்தப்படுகிறது.</p>
+        </div>
+
+    </div>
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+// Show the button when the user scrolls down
+window.onscroll = function() {
+    const backToTopButton = document.querySelector('.back-to-top');
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopButton.style.display = "block";
+    } else {
+        backToTopButton.style.display = "none";
+    }
+};
+
+// Scroll back to the top smoothly
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+    </script>
+    <footer>
+        <p>&copy; Mechanical Nuts Learning | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

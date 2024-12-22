@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Sensors</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE; /* Aqua Blue Gradient with #E1EBEE */
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative; /* Make header position relative for logo positioning */
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px; /* Adjust the size of the logo */
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out; /* Fade-in effect */
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Capacitor Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sensors</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+
+    <div class="container">
+        <p>Sensors are devices that detect changes in the environment and convert them into signals for monitoring or controlling systems. They play a crucial role in modern technology, from smartphones to industrial automation.</p>
+
+        <div class="image-container">
+            <img src="./referenceimages/sensor.jpg" alt="Sensor">
+        </div>
+
+        <h2>Types of Sensors</h2>
+
+        <div class="section-content">
+            <h3>Temperature Sensor:</h3>
+            <p>Temperature sensors measure the heat level of an object or environment. These sensors are widely used in devices requiring thermal management or monitoring.</p>
+            <p><strong>Uses:</strong> Controlling heating systems, refrigerators, air conditioners, and industrial ovens.</p>
+            <p><strong>Examples:</strong> Thermocouples and thermistors.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Proximity Sensor:</h3>
+            <p>Proximity sensors detect objects or obstacles without any physical contact. They use electromagnetic or ultrasonic waves to sense distances.</p>
+            <p><strong>Uses:</strong> Automatic doors, smartphone touchless features, and robotic arms.</p>
+            <p><strong>Examples:</strong> Infrared sensors, capacitive sensors.</p>
+        </div>
+        <div class="section-content">
+            <h3>Light Sensor:</h3>
+            <p>Light sensors measure the intensity of light in an environment. They are widely used in devices that need to adjust to lighting conditions.</p>
+            <p><strong>Uses:</strong> Automatic brightness control in smartphones, street lights, and security systems.</p>
+            <p><strong>Examples:</strong> Photodiodes, phototransistors, and LDRs (Light Dependent Resistors).</p>
+        </div>
+        <div class="section-content">
+            <h3>Motion Sensor:</h3>
+            <p>Motion sensors detect movement within a specific range. These sensors are vital in security systems and automation.</p>
+            <p><strong>Uses:</strong> Intruder alarms, automatic doors, and gaming consoles.</p>
+            <p><strong>Examples:</strong> Passive infrared (PIR) sensors, ultrasonic sensors.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Touch Sensor:</h3>
+            <p>Touch sensors detect physical touch or proximity and are used in modern touch-based devices.</p>
+            <p><strong>Uses:</strong> Smartphones, touchpads, and ATMs.</p>
+            <p><strong>Examples:</strong> Capacitive and resistive touch sensors.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Pressure Sensor:</h3>
+            <p>Pressure sensors measure the force applied by gases or liquids in a system. They are essential in monitoring safety-critical environments.</p>
+            <p><strong>Uses:</strong> Automotive tire pressure systems, water pumps, and aviation altimeters.</p>
+            <p><strong>Examples:</strong> Barometers and piezoresistive sensors.</p>
+        </div>
+
+        <h2>சென்சார்கள்</h2>
+
+        <div class="section-content">
+            <h3>வெப்பநிலை சென்சார் (Temperature Sensor):</h3>
+            <p>வெப்பநிலை சென்சார்கள் சூழலின் வெப்பநிலையை கணக்கிடுகிறது. இவை வெப்ப மேலாண்மைக்கு முக்கியமாக பயன்படுகின்றன.</p>
+            <p><strong>பயன்பாடுகள்:</strong> ஹீட்டிங் அமைப்புகள், ஃப்ரிட்ஜுகள் மற்றும் ஏர் கண்டிஷன்களில்.</p>
+            <p><strong>உதாரணம்:</strong> தெர்மோகோப்பிள்கள், தெர்மிஸ்டர்கள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>நெருக்கம் சென்சார் (Proximity Sensor):</h3>
+            <p>இவை பொருள்களை தொடாதே கண்டறிகின்றன. வெவ்வேறு அலுமினியம் அல்லது அலறல் அலைகளை பயன்படுத்துகின்றன.</p>
+            <p><strong>பயன்பாடுகள்:</strong> தானியங்க கதவுகள், ரோபோல் அமைப்புகள்.</p>
+            <p><strong>உதாரணம்:</strong> இன்ஃப்ராரெட் சென்சார், கெப்பாசிட்டிவ் சென்சார்.</p>
+        </div>
+        <div class="section-content">
+            <h3>ஒளி சென்சார் (Light Sensor):</h3>
+            <p>ஒளியின் தீவிரத்தை அளவிட பயன்படும்.</p>
+            <p><strong>பயன்பாடுகள்:</strong> தானியங்கு ஒளி மின்சாரம், சாலைகளின் விளக்குகள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>இயக்கம் சென்சார் (Motion Sensor):</h3>
+            <p>கடந்து செல்லும் சுழற்சியை கண்டறிகிறது.</p>
+            <p><strong>பயன்பாடுகள்:</strong> பாதுகாப்பு அமைப்புகள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>தொட்டு சென்சார் (Touch Sensor):</h3>
+            <p>உரத்தை தொடுதலை கண்டறிகிறது.</p>
+            <p><strong>பயன்பாடுகள்:</strong> ஸ்மார்ட்போன்கள்.</p>
+        </div>
+
+
+        <div class="section-content">
+            <h3>அழுத்தம் சென்சார் (Pressure Sensor):</h3>
+            <p>காற்று அல்லது திரவத்தின் அழுத்தத்தை கண்காணிக்க பயன்படுகிறது.</p>
+            <p><strong>பயன்பாடுகள்:</strong> கார் டயர் அமைப்பு, நீர்ப்பாசன அமைப்பு.</p>
+            <p><strong>உதாரணம்:</strong> பைரோமீட்டர், பைசோரெசிஸ்டிவ் சென்சார்.</p>
+        </div>
+    </div>
+
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Sensor Learning | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

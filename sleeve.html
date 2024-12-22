@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleeve</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Sleeve Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sleeve</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is a Sleeve?</h2>
+        <p>A sleeve in electronics refers to a protective covering or insulator used to prevent contact with conductive parts, to provide mechanical protection, or to bundle multiple wires together. They are commonly used around wires, cables, and pins in electronic components to ensure safety and reliability.</p>
+        <div class="image-container">
+            <img src="./referenceimages/sleeves.jpg" alt="Sleeve Example">
+        </div>
+
+        <h2>Types of Sleeves</h2>
+        <div class="section-content">
+            <h3>Heat Shrink Sleeves:</h3>
+            <p>These are sleeves made from a material that shrinks when exposed to heat. They are used to insulate and protect components such as wires and connectors.</p>
+            <p><strong>Uses:</strong> Electrical insulation, mechanical protection, strain relief, and environmental protection.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Protective Sleeves:</h3>
+            <p>These sleeves are designed to provide physical protection to sensitive components or wires from wear, abrasion, or chemical exposure.</p>
+            <p><strong>Uses:</strong> Protection against mechanical damage, shielding from chemicals and UV rays.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Wire Sleeves:</h3>
+            <p>Wire sleeves are often used to bundle multiple wires together, providing organization and protection. They can be made of materials such as nylon or polyester for added durability.</p>
+            <p><strong>Uses:</strong> Organizing wires, protecting against abrasion and physical damage.</p>
+        </div>
+
+        <h2>Applications of Sleeves in Electronics</h2>
+        <p>Sleeves are used in many areas of electronics for various purposes:</p>
+        <ul>
+            <li>Electrical insulation of wires and components</li>
+            <li>Mechanical protection to prevent physical damage</li>
+            <li>Bundling and organizing wires</li>
+            <li>Environmental protection against moisture, chemicals, and UV exposure</li>
+        </ul>
+
+        <h2>ஸ்லீவ் (Sleeve)</h2>
+        <p>மின்னணுவியல் கூறுகளில், ஸ்லீவ் என்பது கம்பிகளுக்கு பாதுகாப்பு அல்லது வடிவமைப்பை கொடுக்க பயன்படுத்தப்படும் ஒரு கவரிங் அல்லது இன்சுலேட்டர் ஆகும். இது மின்கட்டமைப்புகளில் மின்சார பாகங்களைத் தவிர்க்க, இயந்திர பாதுகாப்பு அல்லது பல்வேறு கம்பிகளை ஒன்றாக சேர்க்க உதவுகிறது.</p>
+
+        <h2>ஸ்லீவின் வகைகள்</h2>
+        <div class="section-content">
+            <h3>ஹீட் ஸ்ரின்க் ஸ்லீவ் (Heat Shrink Sleeve):</h3>
+            <p>இந்த ஸ்லீவுகள் வெப்பத்திற்கு உள்ளாக்கும்போது சுருக்கும் பொருளில் இருந்து செய்யப்பட்டவை. இது மின்கம்பிகள் மற்றும் இணைப்புகளை பாதுகாப்பதற்குப் பயன்படுத்தப்படுகிறது.</p>
+            <p><strong>பயன்பாடுகள்:</strong> மின்சார இன்சுலேஷன், இயந்திர பாதுகாப்பு, அழுத்த உதவிகள் மற்றும் சுற்றுப்புற பாதுகாப்பு.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>பாதுகாப்பு ஸ்லீவ் (Protective Sleeves):</h3>
+            <p>இவை மின்கம்பிகள் அல்லது கூறுகளுக்கு உதிர்வு, துரிதம் அல்லது ரசாயனங்கள் கொண்டு ஏற்படும் காயங்களைத் தவிர்க்க பாதுகாப்பு அளிக்கும் வகையில் வடிவமைக்கப்பட்டவை.</p>
+            <p><strong>பயன்பாடுகள்:</strong> இயந்திர சேதங்களைத் தவிர்க்க, ரசாயனங்கள் மற்றும் UV கதிர்வீச்சுகளிலிருந்து பாதுகாப்பு.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>கம்பி ஸ்லீவ் (Wire Sleeves):</h3>
+            <p>இந்த ஸ்லீவுகள் பல கம்பிகளை ஒன்றாக சேர்க்க உதவுகின்றன, அவை நீலோன் அல்லது பாலியஸ்டர் போன்ற பொருட்களில் இருந்து செய்யப்பட்டு பாதுகாப்பும் நிலைத்தன்மையும் தருகின்றன.</p>
+            <p><strong>பயன்பாடுகள்:</strong> கம்பிகளை ஒழுங்கமைக்க, உறைதவிர்ப்பு மற்றும் இயந்திர சேதங்களைத் தவிர்க்க.</p>
+        </div>
+
+        <h2>மின்னணுவியல் கூறுகளில் ஸ்லீவின் பயன்பாடுகள்</h2>
+        <p>ஸ்லீவுகள் மின்னணு கூறுகளில் பல பயன்பாடுகளுக்கு உபயோகப்படுகின்றன:</p>
+        <ul>
+            <li>மின்கம்பிகளின் இன்சுலேஷன்</li>
+            <li>இயந்திர பாதுகாப்பு மற்றும் உடைக்கப்படுதலைத் தவிர்க்க</li>
+            <li>கம்பிகளை ஒழுங்குபடுத்துதல்</li>
+            <li>நீர், ரசாயனங்கள் மற்றும் UV கதிர்வீச்சுகளிலிருந்து சுற்றுப்புற பாதுகாப்பு</li>
+        </ul>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Show the button when the user scrolls down
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        // Scroll back to the top smoothly
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Sleeve Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

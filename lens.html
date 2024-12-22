@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Lens</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE; /* Aqua Blue Gradient with #E1EBEE */
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative; /* Make header position relative for logo positioning */
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px; /* Adjust the size of the logo */
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out; /* Fade-in effect */
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Capacitor Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lens</h1>
+        <!-- Logo on the right corner -->
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+
+    <div class="container">
+
+        <p>A lens is a transparent piece of glass or plastic that bends light. Lenses are used in many everyday objects like glasses, cameras, and telescopes to help us see better or focus light.</p>
+
+        <div class="image-container">
+            <img src="./referenceimages/lens.jpg" alt="Different Lenses">
+        </div>
+
+        <h2>Types of Lenses</h2>
+        <div class="section-content">
+            <h3>Convex Lens:</h3>
+            <p>A convex lens is thicker in the middle and thinner at the edges. It brings light rays together to a single point and is used to magnify objects.</p>
+            <p><strong>Example:</strong> Magnifying glasses and camera lenses.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Concave Lens:</h3>
+            <p>A concave lens is thinner in the middle and thicker at the edges. It spreads light rays apart and is used in glasses for people who are nearsighted.</p>
+            <p><strong>Example:</strong> Glasses for people with nearsightedness.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Combination Lens:</h3>
+            <p>Sometimes convex and concave lenses are combined to correct vision or improve focus in optical devices.</p>
+            <p><strong>Example:</strong> Binoculars and microscopes.</p>
+        </div>
+
+        <h2>Examples of Lenses in Everyday Life</h2>
+        <div class="section-content">
+            <h3>Eyeglasses:</h3>
+            <p>Convex or concave lenses are used in eyeglasses to help people see clearly.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Cameras:</h3>
+            <p>Camera lenses focus light onto the film or sensor to take clear pictures.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Telescope:</h3>
+            <p>Telescopes use lenses to magnify distant objects, such as stars and planets.</p>
+        </div>
+
+        <h2>லென்ஸ் (Lens)</h2>
+        <p>லென்ஸ் என்பது ஒளியை சுருக்குவதற்கும் விரிக்கவதற்கும் உதவும் வெளிப்படையான கண்ணாடி அல்லது பிளாஸ்டிக் துண்டாகும்.</p>
+
+        <h2>லென்ஸ்களின் வகைகள்</h2>
+        <div class="section-content">
+            <h3>குவிந்த லென்ஸ் (Convex Lens):</h3>
+            <p>இது நடுவில் தடிமனாகவும், விளிம்புகளில் மெல்லியதாகவும் இருக்கும். ஒளிக்கற்றைகளை ஒன்றிணைத்து மையப்படுத்துகிறது.</p>
+            <p><strong>உதாரணம்:</strong> பெரிதாக்கும் கண்ணாடிகள் மற்றும் கேமரா லென்ஸ்கள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>அகன்ற லென்ஸ் (Concave Lens):</h3>
+            <p>இது நடுவில் மெல்லியதாகவும், விளிம்புகளில் தடிமனாகவும் இருக்கும். ஒளிக்கற்றைகளைப் பிரிக்க உதவுகிறது.</p>
+            <p><strong>உதாரணம்:</strong> மைனஸ் பவர் கண்ணாடிகள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>இணைந்த லென்ஸ் (Combination Lens):</h3>
+            <p>குவிந்த மற்றும் அகன்ற லென்ஸ்கள் சேர்த்து விஞ்ஞான உபகரணங்களில் பயன்படுத்தப்படுகின்றன.</p>
+            <p><strong>உதாரணம்:</strong> டூர்பு கண்ணாடிகள் மற்றும் அ Microscope.</p>
+        </div>
+
+        <h2>தினசரி வாழ்க்கையில் லென்ஸ்களின் உதாரணங்கள்</h2>
+        <div class="section-content">
+            <h3>கண்ணாடிகள்:</h3>
+            <p>நேரம் பார்த்தல் மற்றும் தூரம் பார்த்தலுக்கு பயன்படுத்தப்படும் லென்ஸ்கள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>கேமரா:</h3>
+            <p>நன்றாக படம் பிடிக்க ஒளிக்கற்றைகளை மையப்படுத்தும் லென்ஸ்கள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>டெலிஸ்கோப்:</h3>
+            <p>தூரத்தில் உள்ள நட்சத்திரங்கள் மற்றும் கோள்களைப் பெரிதாக்க தூரிகை லென்ஸ்கள் பயன்படுகிறது.</p>
+        </div>
+
+    </div>
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+// Show the button when the user scrolls down
+window.onscroll = function() {
+    const backToTopButton = document.querySelector('.back-to-top');
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopButton.style.display = "block";
+    } else {
+        backToTopButton.style.display = "none";
+    }
+};
+
+// Scroll back to the top smoothly
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+    </script>
+    <footer>
+        <p>&copy; Lens Learning | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

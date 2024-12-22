@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumper</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Jumper Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jumper</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is a Jumper?</h2>
+        <p>A jumper is a small electrical device used to connect two pins or terminals in an electronic circuit. It is typically used to close or open a circuit, making it easy to modify or repair the circuit without needing to solder or make permanent changes.</p>
+        <div class="image-container">
+            <img src="./referenceimages/jumper.jpg" alt="Jumper">
+        </div>
+
+        <h2>Types of Jumpers</h2>
+        <div class="section-content">
+            <h3>Pin Jumper:</h3>
+            <p>A pin jumper consists of a small piece of wire or metal that is used to connect two pins or terminals on a circuit board or device.</p>
+            <p><strong>Uses:</strong> Connecting or disconnecting circuit components, configuring jumpers on circuit boards.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Wire Jumper:</h3>
+            <p>Wire jumpers are flexible wires with connectors on both ends, used to create temporary or permanent electrical connections between points in a circuit.</p>
+            <p><strong>Uses:</strong> Creating connections between circuit components, patching broken circuits.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Bridge Jumper:</h3>
+            <p>Bridge jumpers are typically used to connect two distant points in a circuit where wiring is impractical. They can also be used to create short-circuits for testing purposes.</p>
+            <p><strong>Uses:</strong> Testing circuits, connecting distant pins in a circuit board.</p>
+        </div>
+
+        <h2>Applications of Jumpers</h2>
+        <p>Jumpers are used in various applications, including:</p>
+        <ul>
+            <li>Connecting circuit components in prototype boards</li>
+            <li>Configuring settings on circuit boards</li>
+            <li>Testing and troubleshooting electrical circuits</li>
+        </ul>
+
+        <h2>ஜம்பர் (Jumper)</h2>
+        <p>ஜம்பர் என்பது மின்னணு circuit இல் இரண்டு பின்கள் அல்லது டெர்மினல்களை இணைக்கப் பயன்படுத்தப்படும் ஒரு சிறிய மின்னணு சாதனமாகும். இது பொதுவாக ஒரு circuit ஐ மூடி அல்லது திறக்க பயன்படுத்தப்படுகிறது, இதனால் circuit ஐ மின் வேலை செய்யும் போது மின்சாரம் முடிவடைவதைக் குறைத்து, அவசியமான மின் திருத்தங்களை செய்ய முடியும்.</p>
+
+        <h2>ஜம்பரின் வகைகள்</h2>
+        <div class="section-content">
+            <h3>பின் ஜம்பர்:</h3>
+            <p>பின் ஜம்பர் என்பது ஒரு circuit board அல்லது சாதனத்தில் உள்ள இரண்டு பின்கள் அல்லது டெர்மினல்களை இணைக்க பயன்படும் சிறிய திக்கி அல்லது உலோகப் பாகமாகும்.</p>
+            <p><strong>பயன்பாடுகள்:</strong> circuit கூறுகளை இணைக்க அல்லது பிரிக்க, circuit boards இல் ஜம்பர்கள் அமைக்க.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>கயிறு ஜம்பர்:</h3>
+            <p>கயிறு ஜம்பர்கள் இரண்டு முடிவுகளில் இணைப்புகளுடன் கூடிய வளைந்தக் கயிறுகள் ஆகும், அவை circuit இல் உள்ள புள்ளிகளுக்கிடையே மின்சார இணைப்புகளை உருவாக்க பயன்படுகின்றன.</p>
+            <p><strong>பயன்பாடுகள்:</strong> circuit கூறுகளுக்கு இடையே இணைப்புகளை உருவாக்க, முறிந்த circuit ஐ சரிசெய்தல்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>பிரிட்ஜ் ஜம்பர்:</h3>
+            <p>பிரிட்ஜ் ஜம்பர்கள் circuit இல் இரு தொலைபேசி புள்ளிகளை இணைக்க பயன்படுத்தப்படுகின்றன, இதனால் மின்னணு சாதனங்கள் பொருந்திய பகுதிகள் தொடர்பு கொள்ள முடியும். இவை பரிசோதனைகளுக்கு உதவும் போது நிலையான இணைப்புகள் உருவாக்கும்.</p>
+            <p><strong>பயன்பாடுகள்:</strong> பரிசோதனைச் சிக்தியை உருவாக்க, circuit boards இல் தொலைபேசி பின்கள் இணைக்கும்.</p>
+        </div>
+
+        <h2>ஜம்பரின் பயன்பாடுகள்</h2>
+        <p>ஜம்பர்கள் பல்வேறு பயன்பாடுகளில் முக்கிய பங்கு வகிக்கின்றன:</p>
+        <ul>
+            <li>பிரோதோடைப் boards இல் circuit கூறுகளை இணைப்பது</li>
+            <li>circuit boards இல் அமைப்புகளை மாற்றுதல்</li>
+            <li>மின்னணு circuit களை பரிசோதனை செய்தல் மற்றும் திருத்தம் செய்தல்</li>
+        </ul>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Show the button when the user scrolls down
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        // Scroll back to the top smoothly
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Jumper Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

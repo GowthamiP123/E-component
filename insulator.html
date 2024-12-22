@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insulator</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Insulator Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05);
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Insulator</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is an Insulator?</h2>
+        <p>An insulator is a material that does not allow the flow of electric current. It is used to prevent the unwanted flow of electricity, ensuring that it only flows where it is intended to. Insulators are critical components in electrical systems, as they help to keep electrical conductors apart and safe from external influences.</p>
+        <div class="image-container">
+            <img src="./referenceimages/insulator.jpg" alt="Insulator Example">
+        </div>
+
+        <h2>Types of Insulators</h2>
+        <div class="section-content">
+            <h3>Glass Insulators:</h3>
+            <p>Glass insulators are commonly used in electrical power lines. They are made from glass and provide high durability and resistance to environmental conditions.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Ceramic Insulators:</h3>
+            <p>Ceramic insulators are widely used for high-voltage applications. They offer excellent mechanical strength and are resistant to high temperatures.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Polymer Insulators:</h3>
+            <p>Polymer insulators are lighter and more flexible compared to glass and ceramic insulators. They are used in modern electrical grids due to their durability and resistance to contamination.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Porcelain Insulators:</h3>
+            <p>Porcelain insulators are used for power transmission and distribution systems. They are known for their reliability and resistance to harsh environmental conditions.</p>
+        </div>
+
+        <h2>Applications of Insulators</h2>
+        <ul>
+            <li>Electrical power lines for isolating conductors</li>
+            <li>High-voltage equipment and machinery to prevent electrical shocks</li>
+            <li>Electrical components like transformers, circuit breakers, and capacitors</li>
+            <li>Insulation in buildings to maintain temperature and prevent energy loss</li>
+        </ul>
+
+        <h2>இன்சுலேட்டர் (Insulator)</h2>
+        <p>ஒரு இன்சுலேட்டர் என்பது மின்னழுத்தத்தைக் குறைக்க உதவுகிற பொருள் ஆகும். இது மின்காந்தத்தைத் தடுத்து, மின்சாரத்தின் திரட்டல் மற்றும் பாய்முறை அலைகளை குறைக்க உதவுகிறது. இன்சுலேட்டர்கள் மின்னணு அமைப்புகளில் முக்கியமான கூறுகளாக இருப்பதால், அவை மின்னணு இயக்கிகளின் பாதுகாப்பை உறுதிப்படுத்துகிறது.</p>
+
+        <h2>இன்சுலேட்டரின் வகைகள்</h2>
+        <div class="section-content">
+            <h3>கண்ணாடி இன்சுலேட்டர் (Glass Insulator):</h3>
+            <p>கண்ணாடி இன்சுலேட்டர்கள் மின்சார பவுலைகளை முறையாக இணைக்க உதவுகின்றன. இது மேம்பட்ட நிலை மற்றும் சுற்றுச்சூழல் நிலைகளுக்கு எதிர்ப்பு வழங்குகின்றது.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>செராமிக் இன்சுலேட்டர் (Ceramic Insulator):</h3>
+            <p>செராமிக் இன்சுலேட்டர்கள் அதிக மின்னழுத்தப் பயன்பாடுகளில் பெரிதும் பயன்படுத்தப்படுகின்றன. அவை அதிக வெப்பநிலை எதிர்ப்பு மற்றும் தூண்டுகோலான உறுதிப்பாட்டை வழங்குகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>பாலிமர் இன்சுலேட்டர் (Polymer Insulator):</h3>
+            <p>பாலிமர் இன்சுலேட்டர்கள் கண்ணாடி மற்றும் செராமிக் இன்சுலேட்டர்களுடன் ஒப்பிடுகையில் எளிமையானது மற்றும் வளைக்கக்கூடியவை. இவை தற்போதைய மின்சார வலையமைப்புகளில் பயன்படுத்தப்படுகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>போர்செலின் இன்சுலேட்டர் (Porcelain Insulator):</h3>
+            <p>போர்செலின் இன்சுலேட்டர்கள் மின்சார பரிமாற்ற மற்றும் விநியோக அமைப்புகளில் பயன்படுகின்றன. அவை மீளுருவாக்கம் மற்றும் சூழல் எதிர்ப்புக்கு எதிராக பரிசோதனை செய்யப்பட்டவை.</p>
+        </div>
+
+        <h2>இன்சுலேட்டரின் பயன்பாடுகள்</h2>
+        <ul>
+            <li>மின்சார பவுலைகளுக்கு ஒழுங்கமைப்பதை உறுதிப்படுத்துதல்</li>
+            <li>உயர் மின்னழுத்த சாதனங்கள் மற்றும் இயந்திரங்களுக்கு மின்சார ஷாக்களைத் தவிர்க்கும்</li>
+            <li>மின்னணு கூறுகள் போன்ற டிரான்ஸ்ஃபார்மர்கள், சர்க்கிட் பிரேக்கர்கள் மற்றும் கப்பாசிட்டர்கள்</li>
+            <li>கட்டிடங்களில் வெப்பநிலையை உறுதிப்படுத்தும் மற்றும் ஆற்றல் இழப்பைத் தவிர்க்கும்</li>
+        </ul>
+    </div>
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Insulator Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

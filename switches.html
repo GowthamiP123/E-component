@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Switch Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Switch</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is a Switch?</h2>
+        <p>A switch is a device used to open or close an electrical circuit. It controls the flow of electricity by either allowing or blocking the current. Switches can be manual, like a light switch, or automatic, like a thermostat.</p>
+        <div class="image-container">
+            <img src="./referenceimages/switch.jpg" alt="Switch Image">
+        </div>
+
+        <h2>Types of Switches</h2>
+        <div class="section-content">
+            <h3>Single-Pole Single-Throw (SPST) Switch:</h3>
+            <p>This is the most basic type of switch, used to control one circuit with two positions: on or off.</p>
+            <p><strong>Uses:</strong> Light switches, fans, household appliances.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Single-Pole Double-Throw (SPDT) Switch:</h3>
+            <p>This switch allows one circuit to be connected to two different outputs, providing more control over the electrical flow.</p>
+            <p><strong>Uses:</strong> Alternating between two devices or settings.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Double-Pole Double-Throw (DPDT) Switch:</h3>
+            <p>This switch controls two separate circuits and has two outputs for each circuit, providing more advanced control.</p>
+            <p><strong>Uses:</strong> Complex machines, motor controls.</p>
+        </div>
+
+        <h2>Applications of Switches</h2>
+        <p>Switches are used in a variety of applications, such as:</p>
+        <ul>
+            <li>Lighting control in homes and buildings.</li>
+            <li>Appliances and gadgets.</li>
+            <li>Motorized devices and machinery.</li>
+        </ul>
+
+        <h2>ஸ்விட்ச் (Switch)</h2>
+        <p>ஸ்விட்ச் என்பது மின்சார வளத்தை திறப்பதற்கும், மூடுவதற்கும் பயன்படுத்தப்படும் சாதனமாகும். இது மின்சாரக் கம்பியில் மின்னழுத்தத்தை அனுமதிப்பதோ அல்லது தடுப்பதோ செய்துகொள்கிறது.</p>
+
+        <h2>ஸ்விட்சின் வகைகள்</h2>
+        <div class="section-content">
+            <h3>ஒற்றை-போல் ஒற்றை-தரவு (SPST) ஸ்விட்ச்:</h3>
+            <p>இது ஒரு மின்னணு சுழற்சியை ஒன்றுக்கு கட்டுப்படுத்தும் மிக அடிப்படையான வகை ஸ்விட்சாகும். இரண்டு நிலைகளில் வேலை செய்கிறது: ஓன் அல்லது ஆப்.</p>
+            <p><strong>பயன்பாடுகள்:</strong> ஒளி ஸ்விட்சுகள், வெப்பநிலை சாயங்கள், வீட்டு சாதனங்கள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>ஒற்றை-போல் இரட்டையன்-தரவு (SPDT) ஸ்விட்ச்:</h3>
+            <p>இந்த ஸ்விட்சு ஒரு மின்னணு சுழற்சியை இரண்டு வேறுபட்ட வெளியீடுகளுடன் இணைக்க உதவுகிறது, இது மின்திறனை மேலாண்மை செய்ய உதவுகிறது.</p>
+            <p><strong>பயன்பாடுகள்:</strong> இரண்டு சாதனங்களுக்கு அல்லது அமைப்புகளுக்கு மாறுதல்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>இரட்டை-போல் இரட்டையன்-தரவு (DPDT) ஸ்விட்ச்:</h3>
+            <p>இந்த ஸ்விட்சு இரண்டு மின்னணு சுழற்சிகளை கட்டுப்படுத்துவதுடன், ஒவ்வொரு சுழற்சிக்கும் இரண்டு வெளியீடுகள் கொண்டுள்ளது.</p>
+            <p><strong>பயன்பாடுகள்:</strong> சிக்கலான இயந்திரங்கள், மோதல் கட்டுப்பாடு.</p>
+        </div>
+
+        <h2>ஸ்விட்சின் பயன்பாடுகள்</h2>
+        <p>ஸ்விட்சுகள் பல்வேறு செயல்பாடுகளில் பயன்படுத்தப்படுகின்றன, அவற்றில் சில:</p>
+        <ul>
+            <li>வீட்டுகளிலும் கட்டிடங்களிலும் வெளிச்சத்தை கட்டுப்படுத்தல்.</li>
+            <li>சாதனங்கள் மற்றும் மின்சாதனங்கள்.</li>
+            <li>இயந்திரங்கள் மற்றும் இயந்திரங்களின் இயக்கம்.</li>
+        </ul>
+    </div>
+
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+    <script>
+        // Show the button when the user scrolls down
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        // Scroll back to the top smoothly
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Switch Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

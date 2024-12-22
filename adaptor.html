@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptor</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Adaptor Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Adaptor</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is an Adaptor?</h2>
+        <p>An adaptor is a device that enables one type of plug or socket to connect to a different type. It is commonly used when traveling to different countries or for electrical appliances to ensure compatibility with the local power supply. Adaptors are typically used to connect devices with different plug shapes, voltages, and frequencies.</p>
+        <div class="image-container">
+            <img src="./referenceimages/adapter2.jpg" alt="Adaptor">
+        </div>
+
+        <h2>Types of Adaptors</h2>
+        <div class="section-content">
+            <h3>Power Adaptor:</h3>
+            <p>Power adaptors are used to convert the voltage and current from the power source to be compatible with the device. They ensure the device receives the appropriate power it requires.</p>
+            <p><strong>Uses:</strong> Laptops, smartphones, tablets, and other electronic devices that require specific voltage and current.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Plug Adaptor:</h3>
+            <p>Plug adaptors allow electrical plugs to fit into different sockets, often used for international travel to match plug types in different countries.</p>
+            <p><strong>Uses:</strong> Travel, international power connections, and connecting devices to local outlets with different plug designs.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Universal Adaptor:</h3>
+            <p>Universal adaptors are versatile and can convert various plug types to suit different socket designs. They are often used for travelers who need to plug in devices to multiple types of sockets.</p>
+            <p><strong>Uses:</strong> Global travel, connecting devices to sockets of different shapes and voltages.</p>
+        </div>
+
+        <h2>Applications of Adaptors</h2>
+        <p>Adaptors are essential for many purposes, such as:</p>
+        <ul>
+            <li>Connecting devices with different plug types to a single power source</li>
+            <li>Changing voltage levels for electronic devices</li>
+            <li>Ensuring compatibility for international travel</li>
+            <li>Enabling the connection of devices to foreign power outlets</li>
+        </ul>
+
+        <h2>அடாப்டர் (Adaptor)</h2>
+        <p>அடாப்டர் என்பது ஒரு வகையான பிளக் அல்லது சாக்கெட் ஒன்றை வேறு வகையான பிளக் அல்லது சாக்கெட் உடன் இணைக்கும் சாதனமாகும். இது பொதுவாக பயணம் செய்யும் போது அல்லது மின்சார சாதனங்கள் நாட்டின் மின்சார வழங்கலுடன் ஏற்படுவதை உறுதிப்படுத்த பயன்படுகிறது. அடாப்டர்கள் பொதுவாக வெவ்வேறு பிளக் வடிவங்களைக் கொண்ட சாதனங்களை மின்சார வளையங்களில் இணைக்க பயன்படுத்தப்படுகின்றன.</p>
+
+        <h2>அடாப்டரின் வகைகள்</h2>
+        <div class="section-content">
+            <h3>பவர் அடாப்டர்:</h3>
+            <p>பவர் அடாப்டர்கள் மின்வலுத்தன்மை மற்றும் மின்வழிச் சுழற்சியிலிருந்து மாற்றங்களை மாற்றி சாதனத்திற்கு பொருத்தமாக செயல்படும் முறையில் மின்சாரத்தை வழங்குகின்றன.</p>
+            <p><strong>பயன்பாடுகள்:</strong> லேப்டாப்கள், ஸ்மார்ட்போன்கள், டேப்லெட்டுகள் மற்றும் மின்னணு சாதனங்கள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>பிளக் அடாப்டர்:</h3>
+            <p>பிளக் அடாப்டர்கள் மின்சார பிளக் வடிவங்களை வேறு சாக்கெட்டுகளுடன் இணைக்க உதவுகின்றன, இது பொதுவாக சர்வதேச பயணங்களுக்கு பயன்படுகிறது.</p>
+            <p><strong>பயன்பாடுகள்:</strong> பயணம், சர்வதேச மின்சார இணைப்புகள், மின்சார சாதனங்களை உள்ளூர் பிளக் வடிவங்களுடன் இணைக்க.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>உருவான அடாப்டர்:</h3>
+            <p>உருவான அடாப்டர்கள் பல பிளக் வடிவங்களை பல்வேறு சாக்கெட் வடிவங்களில் இணைக்கும் வகையில் வடிவமைக்கப்பட்டவை.</p>
+            <p><strong>பயன்பாடுகள்:</strong> உலகளாவிய பயணம், பல்வேறு வடிவங்களின் சாக்கெட்டுகளுடன் இணைக்க.</p>
+        </div>
+
+        <h2>அடாப்டரின் பயன்பாடுகள்</h2>
+        <p>அடாப்டர்கள் பல்வேறு பயன்பாடுகளில் முக்கிய பங்கு வகிக்கின்றன:</p>
+        <ul>
+            <li>வெவ்வேறு பிளக் வகைகளை ஒரே மின்சார வளையத்திற்கு இணைக்க</li>
+            <li>மின்னணு சாதனங்களுக்கு மின்வலுத்தன்மையை மாற்ற</li>
+            <li>சர்வதேச பயணத்திற்கு பயன்பாடு</li>
+            <li>சாதனங்களை வெளிநாட்டு மின்சார சாக்கெட்டுகளுக்கு இணைக்க</li>
+        </ul>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Show the button when the user scrolls down
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        // Scroll back to the top smoothly
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Adaptor Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

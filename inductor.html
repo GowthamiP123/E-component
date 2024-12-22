@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inductor</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Inductor Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Inductor</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is an Inductor?</h2>
+        <p>An inductor is a passive electrical component that stores energy in the form of a magnetic field. It consists of a coil of wire, usually wound around a core material such as iron or ferrite. When current flows through the coil, a magnetic field is generated. Inductors resist changes in current and are often used in circuits for filtering, energy storage, and inductive loads.</p>
+        <div class="image-container">
+            <img src="./referenceimages/inductor.jpg" alt="Inductor">
+        </div>
+
+        <h2>Types of Inductors</h2>
+        <div class="section-content">
+            <h3>Air Core Inductor:</h3>
+            <p>Air core inductors have no magnetic core and rely solely on the coil to generate a magnetic field. These are commonly used in high-frequency circuits.</p>
+            <p><strong>Uses:</strong> High-frequency circuits, radio transmitters, and receivers.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Iron Core Inductor:</h3>
+            <p>Iron core inductors use a magnetic core made of iron or steel to increase the inductance and improve efficiency. These are often used in power applications.</p>
+            <p><strong>Uses:</strong> Power supplies, transformers, and inductive heating.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Ferrite Core Inductor:</h3>
+            <p>Ferrite core inductors use ferrite material for the core, which is a type of ceramic material. Ferrite cores help to increase the inductance while keeping the size of the inductor small.</p>
+            <p><strong>Uses:</strong> Power supplies, filters, and signal processing circuits.</p>
+        </div>
+
+        <h2>Applications of Inductors</h2>
+        <p>Inductors are used in many different applications, such as:</p>
+        <ul>
+            <li>Energy storage in power supply circuits</li>
+            <li>Filters to block unwanted frequencies</li>
+            <li>Transformers for voltage conversion</li>
+            <li>Inductive loads in motors and relays</li>
+        </ul>
+
+        <h2>இந்தக்டர் (Inductor) </h2>
+        <p>இந்தக்டர் என்பது மின்னணு இயக்கத்தில் கம்பியிலிருந்து மின் சக்தியை புக்கி ஒரு மாந்திரிக புலத்தில் சேமிக்கும் ஒரு பாசிவ் மின்னணு கூறி ஆகும். இது ஒரு கோயில் வடிவமைப்பில் அமைந்துள்ளது, இது பொதுவாக இரும்பு அல்லது ஃபெரிட் போன்ற குரு பொருளில் சூழப்பட்டுள்ளது. கோயிலில் மின்னோட்டம் ஓடும்போது, ஒரு மாந்திரிக புலம் உருவாக்கப்படுகிறது. இந்தக்டர்கள் மின்னோட்டம் மாற்றங்களை எதிர்த்துக்கொள்கின்றன மற்றும் பரிசுத்தி, ஆற்றல் சேமிப்பு மற்றும் இந்தக்டிவ் லோட்ஸின் சுற்றுகளுக்குப் பயன்படுகின்றன.</p>
+
+        <h2>இந்தக்டரின் வகைகள்</h2>
+        <div class="section-content">
+            <h3>ஏர் கோர் இந்தக்டர்:</h3>
+            <p>ஏர் கோர் இந்தக்டர்கள் எந்த மாந்திரிக குருவும் இல்லாமல் கோயிலில் கம்பியைக் கொண்டு மாந்திரிக புலத்தை உருவாக்குகின்றன. இவை பொதுவாக உயர் ஆற்றல் மின்சார சுற்றுகளில் பயன்படுத்தப்படுகின்றன.</p>
+            <p><strong>பயன்பாடுகள்:</strong> உயர் ஆற்றல் மின்சார சுற்றுகள், ரேடியோத் திரும்பிகள் மற்றும் ஏற்றிகள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>ஐரன் கோர் இந்தக்டர்:</h3>
+            <p>ஐரன் கோர் இந்தக்டர்கள் இரும்பு அல்லது துரும்பு போன்ற மாந்திரிக குருவை பயன்படுத்தி இந்தக்டன்ஸை அதிகரிக்கும் மற்றும் செயல்திறனை மேம்படுத்துகின்றன. இவை பல சக்தி பயன்பாடுகளில் பயன்படுத்தப்படுகின்றன.</p>
+            <p><strong>பயன்பாடுகள்:</strong> பவர் சப்ளைகள், டிரான்ஸ்ஃபார்மர்கள், மற்றும் இந்தக்டிவ் சூடுதல்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>ஃபெரிட் கோர் இந்தக்டர்:</h3>
+            <p>ஃபெரிட் கோர் இந்தக்டர்கள் ஃபெரிட் பொருளைக் கொண்டு செய்யப்பட்ட மாந்திரிக குருவை பயன்படுத்துகின்றன, இது ஒரு வகை செராமிக் பொருள் ஆகும். இவை இந்தக்டன்ஸை அதிகரித்து, இந்தக்டரின் அளவைக் குறைக்க உதவுகின்றன.</p>
+            <p><strong>பயன்பாடுகள்:</strong> பவர் சப்ளைகள், வடிகட்டி, மற்றும் சிக்னல் செயலாக்க சுற்றுகள்.</p>
+        </div>
+
+        <h2>இந்தக்டரின் பயன்பாடுகள்</h2>
+        <p>இந்தக்டர்கள் பலவிதமான பயன்பாடுகளில் பயன்படுத்தப்படுகின்றன:</p>
+        <ul>
+            <li>பவர் சப்ளை சுற்றுகளிலான ஆற்றல் சேமிப்பு</li>
+            <li>தவிர்க்க வேண்டிய அதிர்வுகளை வடிகட்டி</li>
+            <li>மின்னழுத்த மாற்றத்திற்கு டிரான்ஸ்ஃபார்மர்கள்</li>
+            <li>இந்தக்டிவ் லோட்ஸ் மொட்டார்களிலும் ரிலேய்களிலும்</li>
+        </ul>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Show the button when the user scrolls down
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        // Scroll back to the top smoothly
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Inductor Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

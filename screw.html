@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screw</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Screw Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05);
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Screw in Electronics</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is a Screw?</h2>
+        <p>A screw is a mechanical fastener used to join or secure two or more parts together.Screws are used to attach components, devices, or casings to a mounting surface or to one another.</p>
+        <div class="image-container">
+            <img src="./referenceimages/screw.jpg" alt="Screw Example">
+        </div>
+
+        <h2>Types of Screws</h2>
+        <div class="section-content">
+            <h3>Machine Screws:</h3>
+            <p>These screws are commonly used for assembling electronic components and devices. They have a uniform diameter along the entire length of the shaft and are often used with nuts or tapped holes in metal parts.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Self-Tapping Screws:</h3>
+            <p>Self-tapping screws have a sharp point that allows them to drill their own hole as they are driven into the material, making them ideal for use in plastic or softer materials.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Thumb Screws:</h3>
+            <p>Thumb screws are designed to be tightened and loosened by hand without the use of tools. They are commonly used in areas where tools are impractical.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Binding Screws:</h3>
+            <p>These screws are used to secure multiple parts together, commonly used in attaching covers or lids on electronic enclosures and boxes.</p>
+        </div>
+
+        <h2>Applications of Screws </h2>
+        <ul>
+            <li>Mounting electronic components on circuit boards</li>
+            <li>Securing covers and enclosures of electronic devices</li>
+            <li>Attaching heat sinks to components</li>
+            <li>Fastening connectors or terminals in electrical devices</li>
+        </ul>
+
+        <h2> ஸ்க்ரூ (Screw)</h2>
+        <p>ஸ்க்ரூ என்பது இரண்டு அல்லது அதற்கு மேற்பட்ட பகுதிகளை இணைக்க அல்லது உறுதிப்படுத்த பயன்படுத்தப்படும் ஒரு மெக்கானிக்கல் பாசிடி ஆகும்.ஸ்க்ரூகள் பல்வேறு தொகுதிகள், சாதனங்கள் அல்லது வேலியமைப்புகளை ஒன்றிணைக்க அல்லது இறுக்க பயன்படுத்தப்படுகின்றன.</p>
+
+        <h2>ஸ்க்ரூ வகைகள்</h2>
+        <div class="section-content">
+            <h3>மெஷின் ஸ்க்ரூ (Machine Screws):</h3>
+            <p>இந்த ஸ்க்ரூக்கள் எலக்ட்ரானிக் கூறுகளையும் சாதனங்களையும் இணைக்க பொதுவாக பயன்படுத்தப்படுகின்றன. இந்த ஸ்க்ரூக்களின் நீளத்தின் முழு அளவிலும் ஒரே பரிமாணம் உள்ளது மற்றும் எப்போதும் நட்டுகளுடன் அல்லது மெட்டல் பகுதிகளில் துவாரங்களை உட்படுத்த பயன்படுத்தப்படுகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>சேல்-டாப்பிங் ஸ்க்ரூ (Self-Tapping Screws):</h3>
+            <p>சேல்-டாப்பிங் ஸ்க்ரூக்கள் தங்கள் சொந்தமான துளையை துவக்கி வைக்கவும், மென்மையான பொருட்களில் பயன்படுத்த எப்போதும் மிகவும் உதவியாக இருக்கும்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>தம்ப் ஸ்க்ரூ (Thumb Screws):</h3>
+            <p>தம்ப் ஸ்க்ரூக்கள் கருவிகள் இல்லாமல் கைyla இறுக்கத்திற்கும் தளர்த்தத்திற்கும் வடிவமைக்கப்பட்டுள்ளன. இந்த ஸ்க்ரூக்கள் கருவிகள் கடுமையாக இருக்காத இடங்களில் பொதுவாக பயன்படுத்தப்படுகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>பைண்டிங் ஸ்க்ரூ (Binding Screws):</h3>
+            <p>இந்த ஸ்க்ரூக்கள் பல பகுதிகளை ஒன்றிணைக்க பயன்படுத்தப்படுகின்றன, பொதுவாக எலக்ட்ரானிக் சாதனங்களின் மூடியங்கள் மற்றும் பெட்டிகளை உறுதிப்படுத்த பயன்படுத்தப்படுகின்றன.</p>
+        </div>
+
+        <h2>ஸ்க்ரூக்களின் பயன்பாடு</h2>
+        <ul>
+            <li>சர்க்யூட் போர்டில் எலக்ட்ரானிக் கூறுகளை மவுண்ட் செய்தல்</li>
+            <li>எலக்ட்ரானிக் சாதனங்களின் மூடிகள் மற்றும் பெட்டிகளை உறுதிப்படுத்துதல்</li>
+            <li>ஹீட் சிங்க்களை கூறுகளுடன் இணைத்தல்</li>
+            <li>இலத்திரனியல் சாதனங்களில் இணைப்புகள் அல்லது டெர்மினல்களை இறுக்குதல்</li>
+        </ul>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Screw in Electronics Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Transistor</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE; /* Aqua Blue Gradient with #E1EBEE */
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative; /* Make header position relative for logo positioning */
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px; /* Adjust the size of the logo */
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out; /* Fade-in effect */
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Capacitor Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Transistor</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+
+  
+
+    <div class="container">
+        <p>In electronics, a transistor is a small but powerful component that acts like a switch or an amplifier. It is a key part of almost all modern electronic devices, helping to control electricity and signals.</p>
+
+        <div class="image-container">
+            <img src="./referenceimages/transistor.jpg" alt="Transistor">
+        </div>
+
+        <h2>Types of Transistors</h2>
+        <div class="section-content">
+            <h3>Bipolar Junction Transistor (BJT):</h3>
+            <p>A BJT has three terminals: base, collector, and emitter. It can amplify small signals or act as a switch in circuits.</p>
+            <p><strong>Example:</strong> Used in audio amplifiers and signal processing circuits.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Field Effect Transistor (FET):</h3>
+            <p>FETs are controlled by voltage rather than current. They are energy-efficient and often used in digital circuits.</p>
+            <p><strong>Example:</strong> Found in microprocessors and power management systems.</p>
+        </div>
+
+        <h2>Applications of Transistors in Electronics</h2>
+        <div class="section-content">
+            <h3>Smartphones:</h3>
+            <p>Transistors form the backbone of processors in smartphones, allowing them to perform complex calculations.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Radios and TVs:</h3>
+            <p>Transistors amplify sound and video signals for clear output.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Automotive Electronics:</h3>
+            <p>Transistors control various functions in modern cars, such as lighting and engine management systems.</p>
+        </div>
+
+        <h2>டிரான்ஸிஸ்டர்</h2>
+        <p>மின்னணு சாதனங்களில், டிரான்ஸிஸ்டர் என்பது ஒரு சிறிய மற்றும் சக்திவாய்ந்த பாகமாகும். இது சுவிட்ச் அல்லது ஆம்ப்ளிபையராக செயல்படுகிறது. மின்னணு சாதனங்களின் அடிப்படை பாகமாக இருக்கும் டிரான்ஸிஸ்டர் மின்சாரத்தையும் சிக்னல்களையும் கட்டுப்படுத்த உதவுகிறது.</p>
+
+        <h2>வகைகள்:</h2>
+        <div class="section-content">
+            <h3>பைபோலார் ஜங்சன் டிரான்ஸிஸ்டர் (BJT):</h3>
+            <p>இது மூன்று இணைப்புகள் கொண்டது: பேஸ், கலெக்டர், எமிட்டர். இது சிக்னல்களை அதிகரிக்கவோ அல்லது சுவிட்ச் ஆகவோ செயல்படுகிறது.</p>
+            <p><strong>உதாரணம்:</strong> ஆடியோ ஆம்ப்ளிஃபையர்களில் பயன்படுத்தப்படுகிறது.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>ஃபீல்ட் இஃபெக்ட் டிரான்ஸிஸ்டர் (FET):</h3>
+            <p>இவை மின்தடத்தை விட மின்னழுத்தத்தால் கட்டுப்படுத்தப்படுகிறது. இவை ஆற்றல் திறமையானவை.</p>
+            <p><strong>உதாரணம்:</strong> மைக்ரோபிராசஸ்ஸர் மற்றும் சக்தி மேலாண்மை அமைப்புகளில் காணப்படுகிறது.</p>
+        </div>
+
+        <h2>செயல்பாடுகள்:</h2>
+        <div class="section-content">
+            <h3>ஸ்மார்ட்போன்கள்:</h3>
+            <p>பிராசஸ்ஸர்களின் முதன்மை பாகமாக டிரான்ஸிஸ்டர் செயல்படுகிறது.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>ரேடியோ மற்றும் டிவி:</h3>
+            <p>சிக்னல்களை பெரிதாக்கி தெளிவான ஒலி மற்றும் படத்தை வழங்குகிறது.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>தொழில்துறை மின்னணு:</h3>
+            <p>சோதனை மற்றும் பாதுகாப்பு அம்சங்களில் பயன்படுகிறது.</p>
+        </div>
+    </div>
+
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Transistor Learning | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

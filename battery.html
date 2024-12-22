@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE; /* Aqua Blue Gradient with #E1EBEE */
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative; /* Make header position relative for logo positioning */
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px; /* Adjust the size of the logo */
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out; /* Fade-in effect */
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Capacitor Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05); /* Hover effect to enlarge image */
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Battery</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is a Battery?</h2>
+        <p>A battery is a device that stores chemical energy and converts it into electrical energy to power electronic devices. It consists of one or more cells, each with a positive terminal (cathode) and a negative terminal (anode), separated by an electrolyte.</p>
+        <div class="image-container">
+            <img src="./referenceimages/battery.jpg" alt="O-Ring">
+        </div>
+        <h2>Types of Batteries</h2>
+        <div class="section-content">
+            <h3>Primary Batteries:</h3>
+            <p>These are non-rechargeable batteries designed for single-use.</p>
+            <p><strong>Examples:</strong> Alkaline batteries, zinc-carbon batteries.</p>
+            <p><strong>Uses:</strong> Remote controls, flashlights, toys.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Secondary Batteries:</h3>
+            <p>Rechargeable batteries that can be used multiple times.</p>
+            <p><strong>Examples:</strong> Lithium-ion (Li-ion), nickel-metal hydride (NiMH), lead-acid.</p>
+            <p><strong>Uses:</strong> Smartphones, laptops, electric vehicles, solar energy storage.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Lithium-Ion (Li-ion) Batteries:</h3>
+            <p>These batteries are known for their high energy density, lightweight design, and long lifespan.</p>
+            <p><strong>Uses:</strong> Mobile devices, laptops, and electric vehicles.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Nickel-Metal Hydride (NiMH) Batteries:</h3>
+            <p>NiMH batteries are commonly used in high-drain devices and are an eco-friendly alternative to alkaline batteries.</p>
+            <p><strong>Uses:</strong> Cameras, power tools, and portable electronic devices.</p>
+        </div>
+
+        <h2>பேட்டரி (Battery)</h2>
+        <p>பேட்டரி என்பது இரசாயன ஆற்றலை மின்னணு ஆற்றலாக மாற்றி மின்னணு சாதனங்களுக்கு சக்தி வழங்கும் ஒரு சாதனமாகும்.</p>
+
+        <h2>வகைகள்:</h2>
+        <div class="section-content">
+            <h3>முதன்மை பேட்டரிகள் (Primary Batteries):</h3>
+            <p>மீண்டும் சார்ஜ் செய்ய முடியாத, ஒருமுறை பயன்பாட்டுக்கு மட்டுமே பொருத்தமானவை.</p>
+            <p><strong>உதாரணம்:</strong> ஆல்கலைன் பேட்டரிகள், ஜிங்க்-கார்பன் பேட்டரிகள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>இரண்டாம் நிலை பேட்டரிகள் (Secondary Batteries):</h3>
+            <p>மீண்டும் சார்ஜ் செய்து பல முறை பயன்படுத்த முடியும்.</p>
+            <p><strong>உதாரணம்:</strong> லித்தியம்-அயான், நிக்கல்-மெட்டல் ஹைட்ரைடு, லீட்-அசிட் பேட்டரிகள்.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>லித்தியம்-அயான் பேட்டரிகள் (Lithium-Ion Batteries):</h3>
+            <p>இவை எடை குறைவாகவும், அதிக ஆற்றல் அளவை கொண்டதுமான பேட்டரிகள்.</p>
+        </div>
+    </div>
+    </div>
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+    <script>
+        // Show the button when the user scrolls down
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        // Scroll back to the top smoothly
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+    <footer>
+        <p>&copy; Battery Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

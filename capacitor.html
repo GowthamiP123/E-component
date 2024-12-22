@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capacitor</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Capacitor Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05);
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Capacitor</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is a Capacitor?</h2>
+        <p>A capacitor is a two-terminal electronic component used to store electrical energy in an electric field. It is a passive component that consists of two conductive plates separated by an insulating material called a dielectric.</p>
+        <div class="image-container">
+            <img src="./referenceimages/capacitor.jpg" alt="Capacitor Example">
+        </div>
+
+        <h2>Types of Capacitors</h2>
+        <div class="section-content">
+            <h3>Electrolytic Capacitors:</h3>
+            <p>These are polarized capacitors and are commonly used in power supply circuits for filtering and smoothing.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Ceramic Capacitors:</h3>
+            <p>Ceramic capacitors are commonly used for high-frequency applications. They are small, inexpensive, and reliable.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Film Capacitors:</h3>
+            <p>Film capacitors use plastic film as the dielectric. They are stable and provide high reliability in various applications.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Tantalum Capacitors:</h3>
+            <p>Tantalum capacitors are a type of electrolytic capacitor with high capacitance and small size, used in compact electronic devices.</p>
+        </div>
+
+        <h2>Applications of Capacitors</h2>
+        <ul>
+            <li>Energy storage in power supplies</li>
+            <li>Signal filtering in audio equipment</li>
+            <li>Timing circuits in clocks and oscillators</li>
+            <li>Voltage regulation in power distribution systems</li>
+        </ul>
+
+        <h2>கேப்பாசிடர் (Capacitor)</h2>
+        <p>ஒரு கேப்பாசிடர் என்பது மின் துறையில் மின்சாரத்தை சேமிக்க பயன்படுத்தப்படும் இரண்டு டெர்மினல் கொண்ட கூறாகும். இது ஒரு பாசிவ் கூறு ஆகும் மற்றும் அதில் இரண்டு கலைபுலிகள் உள்ளன, அவை பிரித்திருக்கும் தடைசெய்யும் பொருளாக ஒரு டைஎலெக்ட்ரிக் பொருள் உள்ளது.</p>
+
+        <h2>கேப்பாசிடரின் வகைகள்</h2>
+        <div class="section-content">
+            <h3>எலெக்ட்ரோலைட்டிக் கேப்பாசிடர்கள் (Electrolytic Capacitors):</h3>
+            <p>இவை பாலரைக் கொண்ட கேப்பாசிடர்கள் ஆகும் மற்றும் சக்தி வழங்கும் circuits இல் வடிகட்டல் மற்றும் சீரமைப்பில் பொதுவாகப் பயன்படுத்தப்படுகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>செராமிக் கேப்பாசிடர்கள் (Ceramic Capacitors):</h3>
+            <p>செராமிக் கேப்பாசிடர்கள் மிகுந்த அதிர்வு தேவைகள் கொண்ட பயன்பாடுகளில் பொதுவாக பயன்படுத்தப்படுகின்றன. இவை சிறியவை, விலையுயர்ந்தவை மற்றும் நம்பகமானவை.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>பிளாஸ்டிக் ஃபிலிம் கேப்பாசிடர்கள் (Film Capacitors):</h3>
+            <p>பிளாஸ்டிக் ஃபிலிம் கேப்பாசிடர்கள், பிளாஸ்டிக் பொருள் பயன்படுத்தி உருவாக்கப்பட்டுள்ளன. இவை அதிக நம்பகத் தன்மை மற்றும் பல்வேறு பயன்பாடுகளில் நிலைத்தன்மையை வழங்குகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>தாந்தாலம் கேப்பாசிடர்கள் (Tantalum Capacitors):</h3>
+            <p>தாந்தாலம் கேப்பாசிடர்கள், அதிக கேப்பாசிடன்ஸ் மற்றும் சிறிய அளவைக் கொண்ட எலெக்ட்ரோலைட்டிக் கேப்பாசிடர்களாகும், இது கூட்டு மின்னணு சாதனங்களில் பயன்படுத்தப்படுகின்றன.</p>
+        </div>
+
+        <h2>கேப்பாசிடரின் பயன்பாடு</h2>
+        <ul>
+            <li>சக்தி வழங்கும் முறைமை உள்ளே ஆற்றல் சேமிப்பு</li>
+            <li>ஆடியோ சாதனங்களில் சிக்னல் வடிகட்டுதல்</li>
+            <li>கால அளவீடு மற்றும் ஒஸ்சிலேட்டர்களின் நேரம் கட்டுப்பாட்டுக் கூறுகள்</li>
+            <li>சக்தி விநியோகம் அமைப்புகளிலுள்ள மின்னழுத்தம் ஒழுங்கமைப்பு</li>
+        </ul>
+    </div>
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Capacitor Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

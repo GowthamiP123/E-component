@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coil</title>
+    <link rel="icon" href="./referenceimages/icon.png" type="image/png">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #E1EBEE;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #009688;
+            position: relative;
+        }
+
+            header h1 {
+                font-size: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+
+        /* Logo Positioning */
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Title and Subtitle */
+        h2, h3 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Styled Coil Image */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+            .image-container img {
+                width: 60%;
+                max-width: 400px;
+                border-radius: 10px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease-in-out;
+            }
+
+                .image-container img:hover {
+                    transform: scale(1.05);
+                }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #009688;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Hover Effects for Links */
+        a {
+            text-decoration: none;
+            color: #009688;
+            font-weight: bold;
+            border-bottom: 2px solid #009688;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+            a:hover {
+                color: #333;
+                border-color: #333;
+            }
+
+        /* Animation for fade-in content */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .back-to-top:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coil</h1>
+        <img src="./referenceimages/logosyrma.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <h2>What is a Coil?</h2>
+        <p>A coil is a wound spiral of wire that generates a magnetic field when an electric current is passed through it. It is an essential component in many electronic devices such as transformers, motors, and inductors.</p>
+        <div class="image-container">
+            <img src="./referenceimages/coil.jpg" alt="Coil Example">
+        </div>
+
+        <h2>Types of Coils</h2>
+        <div class="section-content">
+            <h3>Inductance Coil:</h3>
+            <p>Inductance coils are designed to store energy in a magnetic field and are commonly used in inductors for filtering applications.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Transformer Coil:</h3>
+            <p>Transformer coils are used in transformers to convert voltage from one level to another. They consist of primary and secondary windings.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Air Core Coil:</h3>
+            <p>Air core coils are used in low-frequency applications, such as radio frequency circuits, where a magnetic core is not needed.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>Iron Core Coil:</h3>
+            <p>Iron core coils use a magnetic core made from iron to increase inductance. They are commonly used in transformers and chokes.</p>
+        </div>
+
+        <h2>Applications of Coils</h2>
+        <ul>
+            <li>Transformers for voltage conversion</li>
+            <li>Inductors for filtering and energy storage</li>
+            <li>Electric motors for converting electrical energy to mechanical motion</li>
+            <li>Radio frequency circuits for signal transmission and reception</li>
+        </ul>
+
+        <h2>கோயில் (Coil)</h2>
+        <p>ஒரு கோயில் என்பது மின்னணு பரப்பில் மின்னழுத்தத்தை இயக்கும் போது ஒரு தனித்த மாந்திக திசுக்களை உருவாக்கும் சுற்று வடிவத்தில் உள்ள வட்டு ஆகும். இது பல மின்னணு சாதனங்களில் முக்கிய கூறு ஆகும், உதாரணமாக டிரான்ஸ்ஃபார்மர், மோட்டார் மற்றும் இன்டக்டர் போன்றவற்றில்.</p>
+
+        <h2>கோயிலின் வகைகள்</h2>
+        <div class="section-content">
+            <h3>இன்டக்டென்ஸ் கோயில் (Inductance Coil):</h3>
+            <p>இந்த கோயில்கள் மாந்திக திசுக்களில் ஆற்றலை சேமிக்க வடிவமைக்கப்பட்டவை மற்றும் பின்வட்டிகளுக்கு வடிகட்டல் செயல்பாட்டில் பொதுவாக பயன்படுத்தப்படுகின்றன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>டிரான்ஸ்ஃபார்மர் கோயில் (Transformer Coil):</h3>
+            <p>டிரான்ஸ்ஃபார்மர் கோயில்கள் மின்னழுத்தத்தை ஒரே அளவில் இருந்து மற்றொரு அளவுக்கு மாற்ற பயன்படுத்தப்படுகின்றன. அவை முதன்மை மற்றும் இரண்டாம் நிலை சுற்றுகளைக் கொண்டுள்ளன.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>காற்று கோர கோயில் (Air Core Coil):</h3>
+            <p>காற்று கோயில்கள் குறைந்த அதிர்வெண் பயன்பாடுகளில், உதாரணமாக ரேடியோ அதிர்வெண் சுற்றுகளில் பயன்படுத்தப்படுகின்றன, இங்கு மாந்திக கோர் தேவையில்லை.</p>
+        </div>
+
+        <div class="section-content">
+            <h3>கோர கோயில் (Iron Core Coil):</h3>
+            <p>கோயில்கள், இன்டக்டன்ஸ் அதிகரிக்க இரும்பு மாந்திக கோர் பயன்படுத்துகின்றன. அவை டிரான்ஸ்ஃபார்மர் மற்றும் சொக்குகளில் பொதுவாகப் பயன்படுத்தப்படுகின்றன.</p>
+        </div>
+
+        <h2>கோயிலின் பயன்பாடு</h2>
+        <ul>
+            <li>மின்னழுத்த மாற்றத்திற்கு டிரான்ஸ்ஃபார்மர்கள்</li>
+            <li>வடிகட்டல் மற்றும் ஆற்றல் சேமிப்புக்கான இன்டக்டர்கள்</li>
+            <li>எலக்ட்ரிக் மோட்டார்கள் மின்னணுவை மெக்கானிக்கல் இயக்கத்திற்கு மாற்றுகிறது</li>
+            <li>சிக்னல் பரிமாற்றம் மற்றும் பெற்று பயன்படுத்த ரேடியோ அதிர்வெண் சுற்றுகள்</li>
+        </ul>
+    </div>
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        window.onscroll = function () {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Coil Guide | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
